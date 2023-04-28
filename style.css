@@ -1,0 +1,104 @@
+/* Write some CSS below */
+body {
+  font-family: Overpass;
+  font-size: 18px;
+  text-align: center;
+  background-color: #7C9070
+}
+
+h1 {
+color: #F97A22;
+font-size: 60px
+}
+
+h2 {
+font-family: Montserrat;
+color: #7C9070;
+font-size: 30px
+}
+
+h3 {
+font-family: Montserrat;
+color: white;
+font-size: 30px
+}
+
+h4 {
+font-family: Montserrat;
+color: #F97A22;
+font-size: 20px
+font-weight:bold;
+}
+
+h1, h2, h3 {
+  font-family: Castoro Titling;
+}
+
+a {
+  color: #F97A22;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+p {
+color: black;
+}
+
+a:hover {
+  color: #CE2FAE;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/banniere.png');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.button-blue {
+  background-color: #F97A22;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.card-white {
+    background: white;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 8px;
+    text-align: center;
+}
+
+.card-white img {
+width: 180px;
+height: 180px;
+object-fit: cover;
+border-radius: 4px;
+}
+
+.card-white p {
+  margin-bottom: 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.footer {
+  background: #404042;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.footer p {
+  color: white;
+}
